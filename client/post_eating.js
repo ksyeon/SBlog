@@ -1,0 +1,1 @@
+Router.route('/post_eating', 'post_eating');

@@ -1,0 +1,1 @@
+Router.route('/post_studying', 'post_studying');
