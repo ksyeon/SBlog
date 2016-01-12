@@ -8,40 +8,34 @@
                     <h2 class="section-heading">Posting</h2>
                     <hr>
                 </div>
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1 text-center">
-                        <form action="" method="post">
-                            <div class="form-group">
-                                <label class="joinform col-lg-3 control-label" for="category">Category</label>
-                                <div class="col-lg-8">
-                                    <select class="form-control" id="category">
-                                        <option>카테고리를 선택하세요.</option>
-                                        <option id="post_daily">Daily Notes</option>
-                                        <option id="post_study">Studying</option>
-                                        <option id="post_eat">Eating</option>
-                                        <option id="post_travel">Travel</option>
-                                    </select>
-                                </div> <br /><br />
-                                <p class="form-group">
-                                    <label class="joinform col-lg-3 control-label" for="title">글 제목</label>
-                                <div class="col-lg-8">
-                                    <input class="form-control" id="title" type="text" placeholder="" name="id" value="" maxlength="20" />
-                                </div>
-                                </p><br /><br />
-                                <p class="form-group">
-                                    <label class="joinform col-lg-3 control-label" for="contents">글 내용</label>
-                                <div class="col-lg-8">
-                                    <input class="form-control" id="contents" type="text" placeholder="" name="id" value="" />
-                                </div>
-                                </p>
-                            </div>
-
-                            <br /><br /><br />
-                            <button id="write" class="btn btn-warning btn-xl">등록</button>
-                            <a href="/" class="btn btn-warning btn-xl">취소</a>
-                        </form>
-
+                <div class="col-lg-10 col-lg-offset-1 text center">
+                    <div class="form-group">
+                        <label class="col-lg-3 control-label" for="category">Category</label>
+                        <div class="col-lg-8">
+                            <select class="form-control" id="category">
+                                <option>카테고리를 선택하세요.</option>
+                                <option id="post_daily">Daily Notes</option>
+                                <option id="post_study">Studying</option>
+                                <option id="post_eat">Eating</option>
+                                <option id="post_travel">Travel</option>
+                            </select>
+                        </div><br /><br />
                     </div>
+                    <div class="form-group">
+                        <label class="col-lg-3 control-label" for="title">글 제목</label>
+                        <div class="col-lg-8">
+                            <input class="form-control" id="title" type="text" name="title" maxlength="20"/>
+                        </div>
+                    </div><br /><br />
+                    <div class="form-group">
+                        <label class="col-lg-3 control-label" for="contents">글 내용</label>
+                        <div class="col-lg-8">
+                            <input class="form-control" id="contents" type="text" name="contents" />
+                        </div>
+                    </div>
+                    <br /><br /><br />
+                    <button id="write" class="btn btn-warning btn-xl">등록</button>
+                    <a href="/" class="btn btn-warning btn-xl">취소</a>
                 </div>
             </div>
         </div>

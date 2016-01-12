@@ -6,6 +6,11 @@ Template.post_daily.helpers({
             return false;
         }
         else return true;
+    },
+
+    boards_d: function() {
+        var total = Boards_daily.find({}).fetch().length;
+
     }
 });
 
