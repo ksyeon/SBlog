@@ -14,7 +14,7 @@ Template.posting.events({
             return alert('제목과 내용을 모두 입력해주세요!');
         }
         var count = 0; // 조회수 카운트
-        if(write.click()) {
+        if(write.click()) { // write -> 클릭할 때마다 조회수 증가
             count++;
         }
         obj.조회수 = count;
