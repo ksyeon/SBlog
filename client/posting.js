@@ -2,9 +2,9 @@ Router.route('/posting', 'posting');
 
 Template.posting.events({
     "click #write": function(evt, tmpl) {
-        if(!Meteor.user()){
-            return alert('로그인을 해주세요!');
-        }
+        //if(!Meteor.user()){
+        //    return alert('로그인을 해주세요!');
+        //}
 
         var obj = {};
         obj.카테고리 = $('#category').val();
