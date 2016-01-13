@@ -25,16 +25,16 @@ Template.posting.events({
             + time.getHours()+':'+ time.getMinutes()+':'+time.getSeconds();
 
         //console.log($('#category').val());
-        if($('#category').val() === 'Daily Notes') {
+        if($('#category').val() === "Daily Notes") {
             Boards_daily.insert(obj);
         }
-        else if($('#category').val() === 'post_study'){
+        else if($('#category').val() === "Studying"){
             Boards_studying.insert(obj);
         }
-        else if($('#category').val() === 'post_eat'){
+        else if($('#category').val() === "Eating"){
             Boards_eating.insert(obj);
         }
-        else if($('#category').val() === 'post_travel'){
+        else if($('#category').val() === "Travel"){
             Boards_travel.insert(obj);
         }
 
