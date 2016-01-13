@@ -145,6 +145,14 @@ section .section-text {
     border: 5px solid #f1f1f1;
 }
 
+#about .aboutTable {
+    margin:15px;
+    padding:10px;
+    text-align: center;
+    border-width: 1px;
+    border-color: #f1f1f1;
+    border-bottom-style: dotted;
+}
 
 .portfolio-box {
     display: block;
