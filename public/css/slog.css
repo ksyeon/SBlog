@@ -146,14 +146,15 @@ section .section-text {
 }
 
 table {
-    width:90%;
+    width:80%;
     height:30px;
-    margin:15px;
+    margin:20px;
     text-align: center;
 }
 
 td {
-    border-width: 3px;
+    font-size: 15px;
+    border-width: 2px;
     border-color: #f1f1f1;
     border-bottom-style: dotted;
 }
